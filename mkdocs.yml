@@ -1,0 +1,32 @@
+site_name: Testing 
+site_description: "Documentation with GitHub and MkDocs"
+site_url: "https://github.com/Zheman01/zheman"
+site_author: "Zheman Wishyar"
+
+copyright: "© All rights reserved - Shift Software"
+
+nav:
+  - About: "testing.md"
+  - Types Of Testing: "type.md"
+  - Methods: "index.md"
+  - Reference: "index.md"
+  
+
+repo_name: "Zheman01/zheman"
+repo_url: "https://github.com/Zheman01/zheman"
+
+
+theme:  
+        name: material
+        direction: ltr
+        palette:
+          primary: "red"
+          accent: "red"
+        font:
+          text: Roboto
+          code: Roboto Mono
+        logo:
+            "https://shiftsoftware.github.io/ShiftGrid/assets/images/logo.png"
+        favicon: "https://shiftsoftware.github.io/ShiftGrid/assets/images/logo.png"
+        include_search_page: true
+        search_index_only: true
